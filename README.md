@@ -8,27 +8,47 @@ Watches directories for reMarkable `.rm` notebook files and converts each page t
 
 ## Requirements
 
-- [Nix](https://nixos.org/download/) with flakes enabled
-- [direnv](https://direnv.net/)
-
-Inkscape (required by `rmc`) and Python are provided by the Nix dev shell. `rm2pdf` must be installed separately (see below).
+- Python 3.10+
+- [Inkscape](https://inkscape.org/) (required by `rmc` for SVG→PDF rendering)
+- `rmc` and/or `rm2pdf` — see below
 
 ## Setup
+
+### Option A — Nix + direnv (recommended)
+
+Requires [Nix](https://nixos.org/download/) with flakes enabled and [direnv](https://direnv.net/).
+Inkscape and Python are provided by the Nix dev shell.
 
 ```bash
 direnv allow        # activates the Nix shell, creates .venv, installs Python deps
 ```
 
-This makes two commands available in the shell:
+### Option B — plain virtualenv
+
+Requires Python 3.10+ and Inkscape installed on your system (e.g. `brew install inkscape`).
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+---
+
+Both options make two commands available:
 
 | Command      | Description                              |
 |--------------|------------------------------------------|
 | `rm-watch`   | Daemon — watches directories for changes |
 | `rm-convert` | One-shot — converts files or directories |
 
-### Install rm2pdf (pre-v6 files only)
+### Install conversion tools
 
 ```bash
+# rmc — for v6+ files (reMarkable software 3+)
+pip install rmc
+
+# rm2pdf — for pre-v6 files (optional)
 nix profile install nixpkgs#rm2pdf
 # or, via Go:
 go install github.com/rorycl/rm2pdf@latest
