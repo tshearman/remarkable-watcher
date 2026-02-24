@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# Nix / direnv
+.direnv/
+result
+
+# macOS
+.DS_Store
+
+# Conversion artefacts
+*.tmp.pdf
+.rm_metadata.json
+
+# Personal launchd installation files (generated from support/ templates)
+run-watcher.sh
+*.plist
+!support/run-watcher.sh
+!support/*.plist
+
+.claude

@@ -1,0 +1,151 @@
+{
+    "cPages": {
+        "lastOpened": {
+            "timestamp": "2:5",
+            "value": "e58f20e5-b742-4eda-98bc-ec58eebc77dc"
+        },
+        "original": {
+            "timestamp": "0:0",
+            "value": -1
+        },
+        "pages": [
+            {
+                "id": "a1aafb75-12b9-44b5-933b-77338bc5bcb0",
+                "idx": {
+                    "timestamp": "2:2",
+                    "value": "ba"
+                },
+                "template": {
+                    "timestamp": "2:1",
+                    "value": "Blank"
+                }
+            },
+            {
+                "id": "1087bfcc-6a85-46d3-b47c-6752614b9df1",
+                "idx": {
+                    "timestamp": "2:2",
+                    "value": "bb"
+                },
+                "template": {
+                    "timestamp": "2:2",
+                    "value": "Blank"
+                }
+            },
+            {
+                "id": "e58f20e5-b742-4eda-98bc-ec58eebc77dc",
+                "idx": {
+                    "timestamp": "2:2",
+                    "value": "bc"
+                },
+                "scrollTime": {
+                    "timestamp": "2:4",
+                    "value": "2024-10-03T20:56:27Z"
+                },
+                "template": {
+                    "timestamp": "2:2",
+                    "value": "Blank"
+                },
+                "verticalScroll": {
+                    "timestamp": "2:4",
+                    "value": 2160
+                }
+            },
+            {
+                "id": "1415f5ba-7d2a-4e43-95de-b2f822ae7ce2",
+                "idx": {
+                    "timestamp": "2:2",
+                    "value": "bd"
+                },
+                "scrollTime": {
+                    "timestamp": "2:5",
+                    "value": "2024-10-03T04:03:43Z"
+                },
+                "template": {
+                    "timestamp": "2:2",
+                    "value": "Blank"
+                },
+                "verticalScroll": {
+                    "timestamp": "2:5",
+                    "value": 2160
+                }
+            }
+        ],
+        "uuids": [
+            {
+                "first": "447f94fc-e191-5120-a322-33920d93bc67",
+                "second": 2
+            },
+            {
+                "first": "8754b39e-5644-52ce-895f-4d6d681f7c81",
+                "second": 1
+            }
+        ]
+    },
+    "coverPageNumber": 0,
+    "customZoomCenterX": 0,
+    "customZoomCenterY": 936,
+    "customZoomOrientation": "portrait",
+    "customZoomPageHeight": 1872,
+    "customZoomPageWidth": 1404,
+    "customZoomScale": 1,
+    "documentMetadata": {
+    },
+    "extraMetadata": {
+        "LastActiveTool": "secondary",
+        "LastBallpointv2Color": "Black",
+        "LastBallpointv2Size": "2",
+        "LastCalligraphyColor": "Black",
+        "LastCalligraphySize": "2",
+        "LastEraseSectionColor": "Black",
+        "LastEraseSectionSize": "2",
+        "LastEraserColor": "Black",
+        "LastEraserSize": "2",
+        "LastEraserTool": "EraseSection",
+        "LastFinelinerv2Color": "Black",
+        "LastFinelinerv2Size": "2",
+        "LastHighlighterv2Color": "HighlighterYellow",
+        "LastHighlighterv2Size": "1",
+        "LastMarkerv2Color": "Black",
+        "LastMarkerv2Size": "2",
+        "LastPaintbrushv2Color": "Black",
+        "LastPaintbrushv2Size": "3",
+        "LastPen": "Calligraphy",
+        "LastPencilv2Color": "Black",
+        "LastPencilv2Size": "2",
+        "LastSelectionToolColor": "Black",
+        "LastSelectionToolSize": "2",
+        "LastSharpPencilv2Color": "Black",
+        "LastSharpPencilv2Size": "2",
+        "SecondaryCalligraphyColor": "Black",
+        "SecondaryCalligraphySize": "3",
+        "SecondaryHighlighterv2Color": "ArgbCode",
+        "SecondaryHighlighterv2ColorCode": "4294962549",
+        "SecondaryHighlighterv2Size": "1",
+        "SecondaryPaintbrushv2Color": "Black",
+        "SecondaryPaintbrushv2Size": "3",
+        "SecondaryPen": "Highlighterv2"
+    },
+    "fileType": "notebook",
+    "fontName": "",
+    "formatVersion": 2,
+    "lineHeight": -1,
+    "margins": 125,
+    "orientation": "portrait",
+    "pageCount": 4,
+    "pageTags": [
+    ],
+    "sizeInBytes": "607168",
+    "tags": [
+        {
+            "name": "one-shot",
+            "timestamp": 1727912999531
+        },
+        {
+            "name": "rpg",
+            "timestamp": 1727912999487
+        }
+    ],
+    "textAlignment": "justify",
+    "textScale": 1,
+    "zoomMode": "bestFit"
+}

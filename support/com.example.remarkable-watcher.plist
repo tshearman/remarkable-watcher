@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+    LaunchAgent template for remarkable_watcher.
+
+    1. Copy run-watcher.sh from this directory to the project root:
+           cp support/run-watcher.sh .
+           chmod +x run-watcher.sh
+
+    2. Copy this file, replacing every PLACEHOLDER below:
+           cp support/com.example.remarkable-watcher.plist \
+              ~/Library/LaunchAgents/com.{USER}.remarkable-watcher.plist
+
+    3. Load it:
+           launchctl load ~/Library/LaunchAgents/com.{USER}.remarkable-watcher.plist
+
+    Placeholders:
+        LABEL        — reverse-DNS label, e.g. com.alice.remarkable-watcher
+        PROJECT_DIR  — absolute path to this repository
+        WATCH_DIR    — directory to watch for .rm files
+        OUTPUT_DIR   — directory where PDFs will be written
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>LABEL</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>PROJECT_DIR/run-watcher.sh</string>
+        <string>WATCH_DIR</string>
+        <string>--output</string>
+        <string>OUTPUT_DIR</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/remarkable-watcher.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/remarkable-watcher.err</string>
+</dict>
+</plist>
